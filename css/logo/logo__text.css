@@ -1,8 +1,13 @@
 
 .logo__text{
     display: inline;
+    font-size: large;
 }
 
 .blue{
-    color: --alura-blue;
+    color: var(--blue);
+}
+
+.black{
+    color:var(--black)
 }
