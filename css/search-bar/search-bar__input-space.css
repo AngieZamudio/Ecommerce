@@ -1,0 +1,9 @@
+.search-bar__input-space{
+    display:none;
+}
+
+@media screen and (min-width: 768px) {
+    .search-bar__input-space{
+        display:block;
+    }
+}

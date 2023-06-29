@@ -1,7 +1,8 @@
 
 .logo__text{
     display: inline;
-    font-size: large;
+    font-size: small;
+    font-weight:bold;
 }
 
 .blue{
