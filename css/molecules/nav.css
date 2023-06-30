@@ -1,4 +1,4 @@
-.nav-bar{
+.nav{
     display: flex;
     justify-content: space-around;
 }
@@ -8,3 +8,5 @@
         order:-1;
     }
 }
+
+
