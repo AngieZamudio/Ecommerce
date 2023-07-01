@@ -1,0 +1,12 @@
+@import url(../style.css);
+
+
+.input{
+    font-family: var(--font-raleway);
+    background-color: var(--white);
+    border: 0;
+    border-bottom: 1px solid var(--light-gray);
+    color: var(--black);
+    font-size: 20px;
+    outline:none;
+}

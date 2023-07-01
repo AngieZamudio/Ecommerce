@@ -1,0 +1,6 @@
+@import url(../style.css);
+
+.label{
+    font-family: var(--font-raleway);
+    color: var(--gray);
+}
