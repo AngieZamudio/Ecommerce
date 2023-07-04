@@ -1,6 +1,7 @@
 @import url(../style.css);
 
-.label{
+.search-input{
     font-family: var(--font-raleway);
-    color: var(--gray);
+    border: 0;
+    outline:none;
 }

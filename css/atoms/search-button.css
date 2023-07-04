@@ -1,0 +1,14 @@
+
+.search-button{
+    border: 0;
+    border-radius: 60px; 
+    background-color: var(--whitey);
+    border-color: var(--whitey);
+    color: var(--gray);
+}
+
+.search-button:active {
+    background-color: var(--light-gray);
+    border-color: var(--light-gray);
+    color: var(--black);
+}

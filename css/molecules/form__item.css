@@ -1,0 +1,12 @@
+@import url(../style.css);
+
+
+.form__item{
+    margin: 1.5rem;
+    position: relative;
+}
+
+.form__item>*{
+    width: 100%;
+    height: var(--viewport-height)*0.5;
+}

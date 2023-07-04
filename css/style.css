@@ -10,22 +10,23 @@
     --white: #ffffff;
     --whitey: #F5F5F5;
     --font-raleway:  'Raleway', sans-serif;
+    --viewport-height: 100vh;
 }
 
 .title{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-raleway);
     font-weight: bolder;
     font-size: 1.5rem;
 }
 
 .subtitle{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-raleway);
     font-weight: bold;
     font-size: 1rem;
 }
---g
+
 .text{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--font-raleway);
     font-size: .8rem;
 }
 
@@ -42,5 +43,5 @@ main {
 }
 
 main>*{
-    margin: 1rem;
+    margin: 0.5rem;
 }

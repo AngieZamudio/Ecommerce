@@ -1,4 +1,25 @@
+@import url(../style.css);
+
+
 .search-bar{
+    background-color: var(--whitey);
+    color: var(--gray);
+    border-radius: 30px;
 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.search-bar>* {
+    background-color: var(--whitey);
+    border-color: var(--whitey);
+    border-radius: 30px;
+    color: var(--gray);
 
-}
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+} 
+ 
