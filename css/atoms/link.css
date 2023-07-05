@@ -1,0 +1,6 @@
+@import url(../style.css);
+
+.link{
+    color: var(--blue);
+    text-decoration: none;
+}

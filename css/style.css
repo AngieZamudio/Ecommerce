@@ -2,9 +2,9 @@
 
 :root{
     --blue: #2A7AE4;
-    --dark-blue: #0c388a; 
+    --dark-blue: #0c388a;
     --light-blue: #EAF2FD;
-    --black: #464646; 
+    --black: #464646;
     --gray: #A2A2A2;
     --light-gray: #C8C8C8;
     --white: #ffffff;
@@ -30,11 +30,12 @@
     font-size: .8rem;
 }
 
+
 body{
     font-family: var(--font-raleway);
 }
 
-main {
+main, footer {
     padding: 1rem;
     display:flex;
     justify-content: center;
@@ -42,6 +43,6 @@ main {
     text-align: center;
 }
 
-main>*{
+main>*, footer>*{
     margin: 0.5rem;
 }

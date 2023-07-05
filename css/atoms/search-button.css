@@ -12,3 +12,12 @@
     border-color: var(--light-gray);
     color: var(--black);
 }
+
+
+@media screen and (max-width:768px) {
+    .search-button{
+        background-color: var(--white);
+        border-color: var(--white);
+        color:var(--black);
+    }
+}

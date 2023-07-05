@@ -5,3 +5,9 @@
     border: 0;
     outline:none;
 }
+
+@media screen and (max-width:768px) {
+    .search-input{
+        display: none;
+    }
+}
