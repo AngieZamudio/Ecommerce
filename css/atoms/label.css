@@ -1,0 +1,10 @@
+@import url(../bases.css);
+
+.label{
+       color: var(--gray);
+       position: absolute;
+       left:3px;
+       top:1rem;  
+       display: flex;
+       align-items: center;
+   }

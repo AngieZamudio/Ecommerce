@@ -1,12 +1,25 @@
-@import url(../style.css);
+@import url(../bases.css);
 
 
 .form__item{
-    margin: 1.5rem;
+    margin: 1rem;
     position: relative;
-}
 
+    display: flex;
+}
+ 
 .form__item>*{
     width: 100%;
-    height: var(--viewport-height)*0.5;
+    height: var(--viewport-height)*0.75;
+}
+
+.form__item textarea{
+    resize: none;
+}
+
+.form__item .input-box:focus + .label,
+.input-box:valid + .label{
+    font-size: .70rem;
+    top:2px;
+    pointer-events: none;
 }

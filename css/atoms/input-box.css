@@ -1,10 +1,15 @@
-@import url(../style.css);
+@import url(../bases.css);
 
 .input-box{
     background-color: var(--white);
     border: 0;
-    border-bottom: 1px solid var(--light-gray);
+    border-bottom: 1.5px solid var(--light-gray);
     color: var(--black);
-    font-size: 14px;
     outline:none;
+    padding:0.80rem;
+    position: relative;
+    border-radius: 4px;
+
 }
+
+
