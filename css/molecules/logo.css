@@ -1,0 +1,9 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.logo .title--black,.title--blue{
+   padding-top: 12px;
+}

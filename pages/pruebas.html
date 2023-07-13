@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek-Login</title>
+    <title>Pruebas</title>
 
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 
@@ -25,38 +25,14 @@
     <link rel="stylesheet" href="../css/organisms/form.css">
     <link rel="stylesheet" href="../css/atoms/footer.css">
     <link rel="stylesheet" href="../css/organisms/contact.css">
-  
-    <link rel="stylesheet" href="../css/molecules/logo.css">
-    <link rel="stylesheet" href="../css/organisms/contact__links.css">
-    <link rel="stylesheet" href="../css/organisms/contact__form.css">
+     <link rel="stylesheet" href="../css/organisms/contact__form.css">
+
 
 </head>
 <body>
-    
-    <header class="nav">           
-        
-        <div class="logo">
-            <img class="img" src="../img/logo_alurageek.png" alt="logo">
-            <h1 class="title--blue">Alura</h1>
-            <h2 class="title--black">Geek</h2>
-        </div>    
-        <div class="search-bar">
-            <input class="search-input" type="text" placeholder="Que buscas">
-            <button class="search-button">
-                <span class="icon">search</span>
-            </button>
-        </div>
 
-        <button class="button button--white">
-            <h2 class="text">Login</h2>
-        </button>
-
-
-
-
-    </header>
     <main>
-
+<!-- 
         <section class="start-session">
             <h1 class="title--black">Iniciar sesión</h1>
             <form class="form" action="">
@@ -77,48 +53,29 @@
                 Entrar
             </button>
 
+        </section > -->
+
+        <section class="contact__form">
+            <h1 class="subtitle--black">Hable con nosotros</h1>
+            <form class="form" action="">
+               <div class="form__item">
+                    <input class="input-box" type="text" id="name" required>
+                    <label class="label" for="name">Nombre</label>
+               </div>
+                <div class="form__item">
+                <textarea class="input-box" name="message" id="message" required></textarea>
+                <label class="label" for="message">Escribe tu mensaje</label>
+            </div>
+            </form>
+            <button class="button button--blue">
+                Enviar
+            </button>
+
         </section >
-
-        <section class="contact">
-
-            <div class="logo">
-                <img class="img" src="../img/logo_alurageek.png" alt="logo">
-                <h1 class="title--blue">Alura</h1>
-                <h2 class="title--black">Geek</h2>
-            </div>
-            <div class="contact__links">
-                <h2 class="text--black">Quien somos</h2>
-                <h2 class="text--black">Politica de privacidad</h2>
-                <h2 class="text--black">Programa de fidelidad</h2>
-                <h2 class="text--black">Nuestras tiendas</h2>
-                <h2 class="text--black">Quiero ser franquiciado</h2>
-                <h2 class="text--black">Anuncie aquí</h2>
-            </div>
-            
-            <div class="contact__form">
-                <h1 class="subtitle--black">Hable con nosotros</h1>
-                <form class="form" action="">
-                   <div class="form__item">
-                        <input class="input-box" type="text" id="name" required>
-                        <label class="label" for="name">Nombre</label>
-                   </div>
-                    <div class="form__item">
-                    <textarea class="input-box" name="message" id="message" required></textarea>
-                    <label class="label" for="message">Escribe tu mensaje</label>
-                </div>
-                </form>
-                <button class="button button--blue">
-                    Enviar
-                </button>
-
-            </div >
-
-        </section>
-
 
 
     </main>
-    <footer>
+    <footer class="footer">
         <h2 class="subtitle--black">Desarrollado por Angélica Zamudio</h2>
         <h2 class="subtitle--blue">2023</h2>
     </footer>

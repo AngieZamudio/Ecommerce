@@ -1,0 +1,7 @@
+.contact__form{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
