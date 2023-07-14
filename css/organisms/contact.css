@@ -8,8 +8,8 @@
     gap: 2rem;
    
     grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: center;
     grid-template-areas: 
     "logo links form"
     ".    links form";
@@ -29,7 +29,7 @@
 }
 
 
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:1200px) {
     .contact{
         grid-template-rows: 1fr 2fr;
         grid-template-columns: 1fr 1fr;
@@ -40,7 +40,7 @@
     }
     
 }
-@media  screen and (max-width:360px) {
+@media  screen and (max-width:768px) {
     .contact{
         gap: 1rem;
         grid-template-rows: 0.5fr 2fr 2fr;

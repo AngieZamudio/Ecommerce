@@ -9,5 +9,10 @@
     align-items: center;
     justify-content: space-around;
     justify-items: center; 
-    padding: 2rem;
+    padding: 5rem;
 }
+.start-session .form__item, .input__box{
+    width: 30vw;
+    min-width: 250px;
+}
+
