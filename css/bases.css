@@ -20,44 +20,39 @@ body{
     font-family: var(--font-raleway);
 }
 
-.title--black{
+.title{
     font-family: var(--font-raleway);
     font-weight: bolder;
     font-size: 1.5rem;
     color:var(--black);
 }
 
-.subtitle--black{
+.subtitle{
     font-family: var(--font-raleway);
     font-weight: bold;
     font-size: 1rem;
     color:var(--black);
 }
 
-.text--black{
+.text{
     font-family: var(--font-raleway);
     font-size: .8rem;
     color:var(--black);
 }
 
-.title--blue{
+.title{
     font-family: var(--font-raleway);
     font-weight: bolder;
     font-size: 1.5rem;
     color:var(--blue);
 }
 
-.subtitle--blue{
-    font-family: var(--font-raleway);
-    font-weight: bold;
-    font-size: 1rem;
+.font-color--blue{
     color:var(--blue);
 }
 
-.text--blue{
-    font-family: var(--font-raleway);
-    font-size: .8rem;
-    color:var(--blue);
+.font-color--black{
+    color:var(--black);
 }
 
 
