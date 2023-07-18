@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pruebas</title>
 
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/bases.css">
-    <link rel="stylesheet" href="../css/atoms/button.css">
-    <link rel="stylesheet" href="../css/atoms/img.css">
-    <link rel="stylesheet" href="../css/atoms/icon.css">
-    <link rel="stylesheet" href="../css/molecules/search-bar.css">
-    <link rel="stylesheet" href="../css/atoms/search-input.css">
-    <link rel="stylesheet" href="../css/atoms/search-button.css">
-    <link rel="stylesheet" href="../css/molecules/form__item.css">
-    <link rel="stylesheet" href="../css/atoms/input-box.css">
-    <link rel="stylesheet" href="../css/atoms/label.css">
-    <link rel="stylesheet" href="../css/atoms/link.css">
-    <link rel="stylesheet" href="../css/organisms/nav.css">
-    <link rel="stylesheet" href="../css/organisms/start-session.css">
-    <link rel="stylesheet" href="../css/organisms/form.css">
-    <link rel="stylesheet" href="../css/atoms/footer.css">
-    <link rel="stylesheet" href="../css/organisms/contact.css">
-     <link rel="stylesheet" href="../css/organisms/contact__form.css">
-
-
-</head>
-<body>
-
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/bases.css" />
+    <link rel="stylesheet" href="../css/atoms/button.css" />
+    <link rel="stylesheet" href="../css/atoms/img.css" />
+    <link rel="stylesheet" href="../css/atoms/icon.css" />
+    <link rel="stylesheet" href="../css/molecules/search-bar.css" />
+    <link rel="stylesheet" href="../css/atoms/search-input.css" />
+    <link rel="stylesheet" href="../css/atoms/search-button.css" />
+    <link rel="stylesheet" href="../css/molecules/form__item.css" />
+    <link rel="stylesheet" href="../css/atoms/input-box.css" />
+    <link rel="stylesheet" href="../css/atoms/label.css" />
+    <link rel="stylesheet" href="../css/atoms/link.css" />
+    <link rel="stylesheet" href="../css/organisms/nav.css" />
+    <link rel="stylesheet" href="../css/organisms/start-session.css" />
+    <link rel="stylesheet" href="../css/organisms/form.css" />
+    <link rel="stylesheet" href="../css/atoms/footer.css" />
+    <link rel="stylesheet" href="../css/organisms/contact.css" />
+    <link rel="stylesheet" href="../css/organisms/contact__form.css" />
+    <link rel="stylesheet" href="../css/organisms/products.css" />
+  </head>
+  <body>
     <main>
-<!-- 
+      <!-- 
         <section class="start-session">
             <h1 class="title--black">Iniciar sesión</h1>
             <form class="form" action="">
@@ -54,30 +52,252 @@
             </button>
 
         </section > -->
-
-        <section class="contact__form">
-            <h1 class="subtitle--black">Hable con nosotros</h1>
-            <form class="form" action="">
-               <div class="form__item">
-                    <input class="input-box" type="text" id="name" required>
-                    <label class="label" for="name">Nombre</label>
-               </div>
-                <div class="form__item">
-                <textarea class="input-box" name="message" id="message" required></textarea>
-                <label class="label" for="message">Escribe tu mensaje</label>
+      <section class="products">
+        <section class="products__preview">
+          <div class="product__preview-info">
+            <h1 class="title font-color--black">Kingdom hearts</h1>
+            <a class="link" href="">
+              <h2 class="subtitle">Ver todo</h2>
+              <span class="icon">arrow_right_alt</span>
+            </a>
+          </div>
+          <div class="product__preview-cards__container">
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
             </div>
-            </form>
-            <button class="button button--blue">
-                Enviar
-            </button>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+          </div>
+        </section>
 
-        </section >
-
-
+        <section class="products__preview">
+          <div class="product__preview-info">
+            <h1 class="title font-color--black">Barbie</h1>
+            <a class="link" href="">
+              <h2 class="subtitle">Ver todo</h2>
+              <span class="icon">arrow_right_alt</span>
+            </a>
+          </div>
+          <div class="product__preview-cards__container">
+             <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+          </div>
+        </section>
+        <section class="products__preview">
+          <div class="product__preview-info">
+            <h1 class="title font-color--black">Barbie</h1>
+            <a class="link" href="">
+              <h2 class="subtitle">Ver todo</h2>
+              <span class="icon">arrow_right_alt</span>
+            </a>
+          </div>
+          <div class="product__preview-cards__container">
+             <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product__preview-card">
+              <div class="product__preview-image">
+                <img
+                  class="img"
+                  src="../img/Products/dummy-image.jpg"
+                  alt="product image"
+                />
+              </div>
+              <h2 class="text font-color--black">Producto XYZ</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="">Ver producto</a>
+              </h2>
+            </div>
+          </div>
+        </section>
+      </section>
     </main>
-    <footer class="footer">
-        <h2 class="subtitle--black">Desarrollado por Angélica Zamudio</h2>
-        <h2 class="subtitle--blue">2023</h2>
-    </footer>
-</body>
+  </body>
 </html>

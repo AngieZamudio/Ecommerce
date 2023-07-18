@@ -24,28 +24,19 @@ body{
     font-family: var(--font-raleway);
     font-weight: bolder;
     font-size: 1.5rem;
-    color:var(--black);
 }
 
 .subtitle{
     font-family: var(--font-raleway);
     font-weight: bold;
     font-size: 1rem;
-    color:var(--black);
 }
 
 .text{
     font-family: var(--font-raleway);
-    font-size: .8rem;
-    color:var(--black);
+    font-size: 0.8rem;
 }
 
-.title{
-    font-family: var(--font-raleway);
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color:var(--blue);
-}
 
 .font-color--blue{
     color:var(--blue);
