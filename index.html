@@ -28,15 +28,17 @@
     <link rel="stylesheet" href="/css/molecules/logo.css" />
     <link rel="stylesheet" href="/css/organisms/contact__links.css" />
     <link rel="stylesheet" href="/css/organisms/contact__form.css" />
-    <link rel="stylesheet" href="/css/organisms/products.css">
+    <link rel="stylesheet" href="/css/organisms/product-catalog.css" />
   </head>
   <body>
     <header class="nav">
-      <div class="logo">
-        <img class="img" src="../img/logo_alurageek.png" alt="logo" />
-        <h1 class="title font-color--blue">Alura</h1>
-        <h2 class="title font-color--black">Geek</h2>
-      </div>
+      <a class="link" href="/index.html">
+        <div class="logo">
+          <img class="img" src="../img/logo_alurageek.png" alt="logo" />
+          <h1 class="title font-color--blue">Alura</h1>
+          <h2 class="title font-color--black">Geek</h2>
+        </div>
+      </a>
       <div class="search-bar">
         <input class="search-input" type="text" placeholder="Que buscas" />
         <button class="search-button">
@@ -44,93 +46,92 @@
         </button>
       </div>
 
-      <button class="button button--white" onclick="window.location.href='/pages/login.html'">
-          Login
+      <button
+        class="button button--white"
+        onclick="window.location.href='/pages/login.html'"
+      >
+        Login
       </button>
     </header>
     <main>
-
-
       <section class="hero">
         <h1 class="hero-title">Febrero promocional</h1>
-        <h2>Productos selecionados con un 33% de descuento</h2>
-        <button class="button button--blue">Ver consolas</button>
+        <h2>Productos con hasta un 33% de descuento</h2>
+        <button class="button button--blue">Ver ofertas</button>
       </section>
 
-      <section class="products">
-        <section class="products__preview">
-          <div class="product__preview-info">
+      <section class="product-catalog">
+        <section class="product-section" name="KingdomHearts">
+          <div class="product-section__header">
             <h1 class="title font-color--black">Kingdom hearts</h1>
             <a class="link" href="">
               <h2 class="subtitle">Ver todo</h2>
               <span class="icon">arrow_right_alt</span>
             </a>
           </div>
-          <div class="product__preview-cards__container">
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+          <div class="product-cards">
+            <div class="product-card">
+              <img
+                class="img"
+                src="img/Products/KingdomHearts/funkopop.jpg"
+                alt="product image"
+              />
+              <h2 class="text font-color--black">Sora Funko Pop</h2>
+              <h2 class="subtitle font-color--black">$60</h2>
+              <h2 class="subtitle font-color--blue">
+                <a class="link" href="/pages/productXYZ.html">Ver producto</a>
+              </h2>
+            </div>
+            <div class="product-card">
+             
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/KingdomHearts/kh1.jpg"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+            
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/KingdomHearts/funkopop-heartless.webp"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/KingdomHearts/com.jpeg"
                   alt="product image"
                 />
-              </div>
+            
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/KingdomHearts/funko-pop-aqua.jpg"
                   alt="product image"
                 />
-              </div>
-              <h2 class="text font-color--black">Producto XYZ</h2>
-              <h2 class="subtitle font-color--black">$60</h2>
-              <h2 class="subtitle font-color--blue">
-                <a class="link" href="">Ver producto</a>
-              </h2>
-            </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
-                <img
-                  class="img"
-                  src="../img/Products/dummy-image.jpg"
-                  alt="product image"
-                />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
@@ -140,79 +141,79 @@
           </div>
         </section>
 
-        <section class="products__preview">
-          <div class="product__preview-info">
-            <h1 class="title font-color--black">Barbie</h1>
+        <section class="product-section" name="FinalFantasy">
+          <div class="product-section__header">
+            <h1 class="title font-color--black">Final Fantasy</h1>
             <a class="link" href="">
               <h2 class="subtitle">Ver todo</h2>
               <span class="icon">arrow_right_alt</span>
             </a>
           </div>
-          <div class="product__preview-cards__container">
-             <div class="product__preview-card">
-              <div class="product__preview-image">
+          <div class="product-cards">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/FinalFantasy/cloud-figure.jpg"
                   alt="product image"
                 />
-              </div>
+             
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/FinalFantasy/cactuarbag.jpg"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/FinalFantasy/final-fantasy-type-0-hd-inc-final-fantasy-xv.webp"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/FinalFantasy/chocobo-plushie.jpg"
                   alt="product image"
                 />
-              </div>
+            
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/FinalFantasy/Ffxboxart.jpg"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
@@ -221,79 +222,79 @@
             </div>
           </div>
         </section>
-        <section class="products__preview">
-          <div class="product__preview-info">
-            <h1 class="title font-color--black">Barbie</h1>
+        <section class="product-section" name="StevenUniverse">
+          <div class="product-section__header">
+            <h1 class="title font-color--black">Steven Universe</h1>
             <a class="link" href="">
               <h2 class="subtitle">Ver todo</h2>
               <span class="icon">arrow_right_alt</span>
             </a>
           </div>
-          <div class="product__preview-cards__container">
-             <div class="product__preview-card">
-              <div class="product__preview-image">
+          <div class="product-cards">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/StevenUniverse/poster.webp"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/StevenUniverse/cardigan.webp"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/StevenUniverse/badges.webp"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+             
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/StevenUniverse/mug.webp"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
                 <a class="link" href="">Ver producto</a>
               </h2>
             </div>
-            <div class="product__preview-card">
-              <div class="product__preview-image">
+            <div class="product-card">
+              
                 <img
                   class="img"
-                  src="../img/Products/dummy-image.jpg"
+                  src="img/Products/StevenUniverse/lion.webp"
                   alt="product image"
                 />
-              </div>
+              
               <h2 class="text font-color--black">Producto XYZ</h2>
               <h2 class="subtitle font-color--black">$60</h2>
               <h2 class="subtitle font-color--blue">
@@ -339,11 +340,11 @@
           <button class="button button--blue">Enviar</button>
         </div>
       </section>
-
-
     </main>
     <footer>
-      <h2 class="subtitle font-color--black">Desarrollado por Angélica Zamudio</h2>
+      <h2 class="subtitle font-color--black">
+        Desarrollado por Angélica Zamudio
+      </h2>
       <h2 class="subtitle font-color--blue">Julio 2023</h2>
     </footer>
   </body>
