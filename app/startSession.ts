@@ -2,6 +2,7 @@ let loginSection: object | null = document.getElementById('login-section');
 
 console.log(loginSection);
 console.log('Hola mundo');
+console.log('Hola mundo 2');
 
 
 
